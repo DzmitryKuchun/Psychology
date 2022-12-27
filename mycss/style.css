@@ -98,8 +98,8 @@ a {
     display: grid;
     grid-template: 1fr / 1fr minmax(auto, 350px) minmax(auto, 1000px) 1fr;
     align-items: center;
-    height: 80px;
-    padding: 20px;
+    height: 90px;
+    padding: 30px;
 }
 
 .header__burger {
@@ -115,7 +115,7 @@ a {
 }
 
 .header__logo img, .footer__logo img {
-    max-width: 60px;
+    max-width: 70px;
 }
 
 .header__logo img, .header__logo span, .footer__logo img, .footer__logo span {
@@ -138,7 +138,7 @@ a {
 
 .header__logo span, .footer__logo span {
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     color: #000000;
 }
 
@@ -150,7 +150,7 @@ a {
 
 .header__link, .footer__link {
     color: #4B4B4B;
-    font-size: 16px;
+    font-size: 18px;
     padding: 10px;
     position: relative;
     z-index: 2;
@@ -159,7 +159,7 @@ a {
 .header__link::after, .footer__link::after {
     display: block;
     position: absolute;
-    bottom: 4px;
+    bottom: 5px;
     left: 0;
     width: 0;
     height: 2px;
@@ -175,7 +175,7 @@ a {
 .header__online-center {
     font-weight: bold;
     color: white;
-    background: #ED1942;
+    background: #197ced;
     padding: 12px 20px 12px;
     border-radius: 40px;
     letter-spacing: 1px;
@@ -185,8 +185,8 @@ a {
 }
 
 .header__phone {
-    color: red;
-    font-size: 22px;
+    color: rgb(0, 128, 255);
+    font-size: 24px;
     font-weight: bold;
     position: relative;
     z-index: 2;
