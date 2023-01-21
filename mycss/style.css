@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     src: url('../fonts/montserrat-v14-latin-regular.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat Regular'), local('Montserrat-Regular'), url('../fonts/montserrat-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -19,7 +19,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     src: url('../fonts/montserrat-v14-latin-500.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat Medium'), local('Montserrat-Medium'), url('../fonts/montserrat-v14-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -35,7 +35,7 @@
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 900;
+    font-weight: 800;
     src: url('../fonts/montserrat-v14-latin-800.eot');
     /* IE9 Compat Modes */
     src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url('../fonts/montserrat-v14-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -64,7 +64,7 @@ img {
 }
 
 .wrapper {
-    max-width: 1170px;
+    max-width: 1160px;
     margin: 1 auto;
     position: relative;
 }
@@ -72,11 +72,11 @@ img {
 .section-tytle {
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
-    line-height: 59px;
+    font-size: 60px;
+    line-height: 69px;
     position: relative;
     color: #313131;
-    z-index: 12;
+    z-index: 14;
 }
 
 a {
@@ -98,8 +98,8 @@ a {
     display: grid;
     grid-template: 1fr / 1fr minmax(auto, 350px) minmax(auto, 1000px) 1fr;
     align-items: center;
-    height: 90px;
-    padding: 30px;
+    height: 100px;
+    padding: 40px;
 }
 
 .header__burger {
@@ -163,7 +163,7 @@ a {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: red;
+    background-color: rgb(0, 200, 255);
     content: "";
     transition: width 0.3s ease-out;
 }
@@ -175,7 +175,7 @@ a {
 .header__online-center {
     font-weight: bold;
     color: white;
-    background: #197ced;
+    background: #ed8d19;
     padding: 12px 20px 12px;
     border-radius: 40px;
     letter-spacing: 1px;
@@ -185,7 +185,7 @@ a {
 }
 
 .header__phone {
-    color: rgb(0, 128, 255);
+    color: rgb(255, 128, 0);
     font-size: 24px;
     font-weight: bold;
     position: relative;
@@ -231,7 +231,7 @@ a {
 }
 
 .footer__icons i:hover {
-    color: red;
+    color: rgb(0, 195, 255);
 }
 
 /* Footer style end */
